@@ -1,0 +1,12 @@
+Requerimientos de usuario:
+1- El sistema debe ser capaz de ingresar nuevos socios
+2- El sistema debe ser capaz de mostrar el aporte total de dinero de cada socio
+
+Requerimiento Funcional
+1- El sistema debe ser capaz de registrar los pagos
+2- El sistema debe ser capaz de actualizar datos de socios
+3- 
+
+Requerimientos no funcional
+1- El sistema debe ser facil de usar 
+2- El sistema debe ser confiable

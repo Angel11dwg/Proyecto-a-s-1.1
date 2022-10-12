@@ -1,0 +1,1082 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAGDw6qSkBYpVHE=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel1",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGDw6qSkBYq/aU=",
+					"_parent": {
+						"$ref": "AAAAAAGDw6qSkBYpVHE="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAGDw6sJ6RZBtJA=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"font": "Arial;13;0",
+							"left": 40,
+							"top": 32,
+							"width": 129,
+							"height": 49,
+							"text": "Nivel 0"
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGDw6tNuBZInY0=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"model": {
+								"$ref": "AAAAAAGDw6tNtxZGxoQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDw6tNuBZJQpE=",
+									"_parent": {
+										"$ref": "AAAAAAGDw6tNuBZInY0="
+									},
+									"font": "Arial;13;0",
+									"left": 186,
+									"top": 120,
+									"width": 149,
+									"height": 13,
+									"text": "sistema junta de vecinos ",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDw6tNuBZKi6s=",
+									"_parent": {
+										"$ref": "AAAAAAGDw6tNuBZInY0="
+									},
+									"font": "Arial;13;0",
+									"left": 186,
+									"top": 93,
+									"width": 149,
+									"height": 13,
+									"text": "0"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 176,
+							"top": 88,
+							"width": 169,
+							"height": 65,
+							"nameLabel": {
+								"$ref": "AAAAAAGDw6tNuBZJQpE="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGDw6tNuBZKi6s="
+							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAGDw6wtqhZX0LU=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"font": "Arial;13;0",
+							"left": 40,
+							"top": 184,
+							"width": 136,
+							"height": 56,
+							"text": "Nivel 1"
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGDw7BnehZe0ZE=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"model": {
+								"$ref": "AAAAAAGDw7BneRZc1uA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDw7BnehZfYGM=",
+									"_parent": {
+										"$ref": "AAAAAAGDw7BnehZe0ZE="
+									},
+									"font": "Arial;13;0",
+									"left": 42,
+									"top": 304,
+									"width": 109,
+									"height": 13,
+									"text": "Registro de socios",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDw7BnehZgcx4=",
+									"_parent": {
+										"$ref": "AAAAAAGDw7BnehZe0ZE="
+									},
+									"font": "Arial;13;0",
+									"left": 42,
+									"top": 277,
+									"width": 109,
+									"height": 13,
+									"text": "1"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 32,
+							"top": 272,
+							"width": 129,
+							"height": 73,
+							"nameLabel": {
+								"$ref": "AAAAAAGDw7BnehZfYGM="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGDw7BnehZgcx4="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGDw7QvaxZsgYs=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"model": {
+								"$ref": "AAAAAAGDw7QvaxZq9CA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDw7QvaxZta38=",
+									"_parent": {
+										"$ref": "AAAAAAGDw7QvaxZsgYs="
+									},
+									"font": "Arial;13;0",
+									"left": 194,
+									"top": 304,
+									"width": 109,
+									"height": 13,
+									"text": "Pago de cuotas",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDw7QvaxZu0u8=",
+									"_parent": {
+										"$ref": "AAAAAAGDw7QvaxZsgYs="
+									},
+									"font": "Arial;13;0",
+									"left": 194,
+									"top": 277,
+									"width": 109,
+									"height": 13,
+									"text": "2"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 184,
+							"top": 272,
+							"width": 129,
+							"height": 73,
+							"nameLabel": {
+								"$ref": "AAAAAAGDw7QvaxZta38="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGDw7QvaxZu0u8="
+							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAGDxAJc36ia5B0=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"font": "Arial;13;0",
+							"left": 40,
+							"top": 392,
+							"width": 128,
+							"height": 56,
+							"text": "Nivel 2"
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGDxAK5IaigRHc=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"model": {
+								"$ref": "AAAAAAGDxAK5IKietCk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDxAK5Iaih9fU=",
+									"_parent": {
+										"$ref": "AAAAAAGDxAK5IaigRHc="
+									},
+									"font": "Arial;13;0",
+									"left": 258,
+									"top": 512,
+									"width": 76,
+									"height": 39,
+									"text": "Consultar Datos de Vecino ",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDxAK5IaiiZnc=",
+									"_parent": {
+										"$ref": "AAAAAAGDxAK5IaigRHc="
+									},
+									"font": "Arial;13;0",
+									"left": 258,
+									"top": 485,
+									"width": 76,
+									"height": 13,
+									"text": "1.1"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 248,
+							"top": 480,
+							"width": 96,
+							"height": 82,
+							"nameLabel": {
+								"$ref": "AAAAAAGDxAK5Iaih9fU="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGDxAK5IaiiZnc="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGDxAwUSqjAWog=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"model": {
+								"$ref": "AAAAAAGDxAwUSqi+8no="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDxAwUSqjBmWQ=",
+									"_parent": {
+										"$ref": "AAAAAAGDxAwUSqjAWog="
+									},
+									"font": "Arial;13;0",
+									"left": 378,
+									"top": 512,
+									"width": 85,
+									"height": 39,
+									"text": "Registrar Vecino como socio ",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDxAwUSqjCzw4=",
+									"_parent": {
+										"$ref": "AAAAAAGDxAwUSqjAWog="
+									},
+									"font": "Arial;13;0",
+									"left": 378,
+									"top": 485,
+									"width": 85,
+									"height": 13,
+									"text": "1.2"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 368,
+							"top": 480,
+							"width": 105,
+							"height": 82,
+							"nameLabel": {
+								"$ref": "AAAAAAGDxAwUSqjBmWQ="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGDxAwUSqjCzw4="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGDxAxzJajQ6FI=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"model": {
+								"$ref": "AAAAAAGDxAxzJajOnvY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDxAxzJajRni0=",
+									"_parent": {
+										"$ref": "AAAAAAGDxAxzJajQ6FI="
+									},
+									"model": {
+										"$ref": "AAAAAAGDxAxzJajOnvY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 355,
+									"top": 499,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDxAxzJajQ6FI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDxAwUSqjAWog="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDxAK5IaigRHc="
+							},
+							"lineStyle": 2,
+							"points": "343:520;368:520",
+							"nameLabel": {
+								"$ref": "AAAAAAGDxAxzJajRni0="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGDxA9nVqjf4Q4=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"model": {
+								"$ref": "AAAAAAGDxA9nVqjd7Og="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDxA9nVqjg/zw=",
+									"_parent": {
+										"$ref": "AAAAAAGDxA9nVqjf4Q4="
+									},
+									"font": "Arial;13;0",
+									"left": 540,
+									"top": 506,
+									"width": 99,
+									"height": 26,
+									"text": "Listado de socios ",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDxA9nVqjh6hY=",
+									"_parent": {
+										"$ref": "AAAAAAGDxA9nVqjf4Q4="
+									},
+									"font": "Arial;13;0",
+									"left": 525,
+									"top": 506,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 520,
+							"top": 496,
+							"width": 129,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAGDxA9nVqjg/zw="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGDxA9nVqjh6hY="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGDxA/PnKjvejY=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"model": {
+								"$ref": "AAAAAAGDxA/PnKjt1wc="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDxA/PnKjw8Ss=",
+									"_parent": {
+										"$ref": "AAAAAAGDxA/PnKjvejY="
+									},
+									"model": {
+										"$ref": "AAAAAAGDxA/PnKjt1wc="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 496,
+									"top": 499,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDxA/PnKjvejY="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDxA9nVqjf4Q4="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDxAwUSqjAWog="
+							},
+							"lineStyle": 2,
+							"points": "472:520;520:520",
+							"nameLabel": {
+								"$ref": "AAAAAAGDxA/PnKjw8Ss="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGDxBQ0+KkHyxM=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"model": {
+								"$ref": "AAAAAAGDxBQ0+KkFoxM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDxBQ0+KkItB4=",
+									"_parent": {
+										"$ref": "AAAAAAGDxBQ0+KkHyxM="
+									},
+									"font": "Arial;13;0",
+									"left": 162,
+									"top": 704,
+									"width": 76,
+									"height": 26,
+									"text": "Pago de coutas ",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDxBQ0+KkJ1b4=",
+									"_parent": {
+										"$ref": "AAAAAAGDxBQ0+KkHyxM="
+									},
+									"font": "Arial;13;0",
+									"left": 162,
+									"top": 677,
+									"width": 76,
+									"height": 13,
+									"text": "2.1"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 152,
+							"top": 672,
+							"width": 96,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDxBQ0+KkItB4="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGDxBQ0+KkJ1b4="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGDxBSJmakWaaA=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"model": {
+								"$ref": "AAAAAAGDxBSJmakUFZ8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDxBSJmakXOs0=",
+									"_parent": {
+										"$ref": "AAAAAAGDxBSJmakWaaA="
+									},
+									"font": "Arial;13;0",
+									"left": 28,
+									"top": 698,
+									"width": 65.76171875,
+									"height": 13,
+									"text": "Socio",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDxBSJmakYNlg=",
+									"_parent": {
+										"$ref": "AAAAAAGDxBSJmakWaaA="
+									},
+									"font": "Arial;13;0",
+									"left": 13,
+									"top": 698,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 8,
+							"top": 688,
+							"width": 95.76171875,
+							"height": 40,
+							"nameLabel": {
+								"$ref": "AAAAAAGDxBSJmakXOs0="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGDxBSJmakYNlg="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGDxBSwXqkmtnM=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"model": {
+								"$ref": "AAAAAAGDxBSwXqkk2uE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDxBSwXqkn4Ao=",
+									"_parent": {
+										"$ref": "AAAAAAGDxBSwXqkmtnM="
+									},
+									"model": {
+										"$ref": "AAAAAAGDxBSwXqkk2uE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 127,
+									"top": 683,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDxBSwXqkmtnM="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDxBQ0+KkHyxM="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDxBSJmakWaaA="
+							},
+							"lineStyle": 2,
+							"points": "103:704;152:704",
+							"nameLabel": {
+								"$ref": "AAAAAAGDxBSwXqkn4Ao="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGDxBU/cakvr1s=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"model": {
+								"$ref": "AAAAAAGDxBU/caktuZ8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDxBU/cakwHz8=",
+									"_parent": {
+										"$ref": "AAAAAAGDxBU/cakvr1s="
+									},
+									"font": "Arial;13;0",
+									"left": 290,
+									"top": 704,
+									"width": 93,
+									"height": 13,
+									"text": "Ingresar pagos",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDxBU/cakx4cM=",
+									"_parent": {
+										"$ref": "AAAAAAGDxBU/cakvr1s="
+									},
+									"font": "Arial;13;0",
+									"left": 290,
+									"top": 677,
+									"width": 93,
+									"height": 13,
+									"text": "2.2"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 280,
+							"top": 672,
+							"width": 113,
+							"height": 73,
+							"nameLabel": {
+								"$ref": "AAAAAAGDxBU/cakwHz8="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGDxBU/cakx4cM="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGDxBWoU6lBlNI=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"model": {
+								"$ref": "AAAAAAGDxBWoU6k/Mkk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDxBWoU6lCBYU=",
+									"_parent": {
+										"$ref": "AAAAAAGDxBWoU6lBlNI="
+									},
+									"model": {
+										"$ref": "AAAAAAGDxBWoU6k/Mkk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 263,
+									"top": 683,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDxBWoU6lBlNI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDxBU/cakvr1s="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDxBQ0+KkHyxM="
+							},
+							"lineStyle": 2,
+							"points": "247:704;280:704",
+							"nameLabel": {
+								"$ref": "AAAAAAGDxBWoU6lCBYU="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGDxBXVQ6lKcHk=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"model": {
+								"$ref": "AAAAAAGDxBXVQ6lIHU0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDxBXVQ6lLzVE=",
+									"_parent": {
+										"$ref": "AAAAAAGDxBXVQ6lKcHk="
+									},
+									"font": "Arial;13;0",
+									"left": 476,
+									"top": 698,
+									"width": 106,
+									"height": 13,
+									"text": "Listado de pagos",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDxBXVQ6lM9B4=",
+									"_parent": {
+										"$ref": "AAAAAAGDxBXVQ6lKcHk="
+									},
+									"font": "Arial;13;0",
+									"left": 461,
+									"top": 698,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 456,
+							"top": 688,
+							"width": 136,
+							"height": 48,
+							"nameLabel": {
+								"$ref": "AAAAAAGDxBXVQ6lLzVE="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGDxBXVQ6lM9B4="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGDxBZhcalXNb4=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"model": {
+								"$ref": "AAAAAAGDxBZhcKlVJns="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDxBZhcalYLYg=",
+									"_parent": {
+										"$ref": "AAAAAAGDxBZhcalXNb4="
+									},
+									"model": {
+										"$ref": "AAAAAAGDxBZhcKlVJns="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 424,
+									"top": 683,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDxBZhcalXNb4="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDxBXVQ6lKcHk="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDxBU/cakvr1s="
+							},
+							"lineStyle": 2,
+							"points": "392:704;456:704",
+							"nameLabel": {
+								"$ref": "AAAAAAGDxBZhcalYLYg="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGDxBeszalncFU=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"model": {
+								"$ref": "AAAAAAGDxBeszall3Qk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDxBeszaloZ5U=",
+									"_parent": {
+										"$ref": "AAAAAAGDxBeszalncFU="
+									},
+									"font": "Arial;13;0",
+									"left": 108,
+									"top": 514,
+									"width": 65.76171875,
+									"height": 13,
+									"text": "Tesorero",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDxBeszalpKUg=",
+									"_parent": {
+										"$ref": "AAAAAAGDxBeszalncFU="
+									},
+									"font": "Arial;13;0",
+									"left": 93,
+									"top": 514,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 88,
+							"top": 504,
+							"width": 95.76171875,
+							"height": 40,
+							"nameLabel": {
+								"$ref": "AAAAAAGDxBeszaloZ5U="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGDxBeszalpKUg="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGDxBfIFKl0KlI=",
+							"_parent": {
+								"$ref": "AAAAAAGDw6qSkBYq/aU="
+							},
+							"model": {
+								"$ref": "AAAAAAGDxBfIFKlyrjM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDxBfIFKl1dfM=",
+									"_parent": {
+										"$ref": "AAAAAAGDxBfIFKl0KlI="
+									},
+									"model": {
+										"$ref": "AAAAAAGDxBfIFKlyrjM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 215,
+									"top": 498,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDxBfIFKl0KlI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDxAK5IaigRHc="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDxBeszalncFU="
+							},
+							"lineStyle": 2,
+							"points": "183:519;248:519",
+							"nameLabel": {
+								"$ref": "AAAAAAGDxBfIFKl1dfM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGDw6tNtxZGxoQ=",
+					"_parent": {
+						"$ref": "AAAAAAGDw6qSkBYpVHE="
+					},
+					"name": "sistema junta de vecinos ",
+					"id": "0"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGDw7BneRZc1uA=",
+					"_parent": {
+						"$ref": "AAAAAAGDw6qSkBYpVHE="
+					},
+					"name": "Registro de socios",
+					"id": "1"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGDw7QvaxZq9CA=",
+					"_parent": {
+						"$ref": "AAAAAAGDw6qSkBYpVHE="
+					},
+					"name": "Pago de cuotas",
+					"id": "2"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGDxAK5IKietCk=",
+					"_parent": {
+						"$ref": "AAAAAAGDw6qSkBYpVHE="
+					},
+					"name": "Consultar Datos de Vecino ",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGDxAxzJajOnvY=",
+							"_parent": {
+								"$ref": "AAAAAAGDxAK5IKietCk="
+							},
+							"source": {
+								"$ref": "AAAAAAGDxAK5IKietCk="
+							},
+							"target": {
+								"$ref": "AAAAAAGDxAwUSqi+8no="
+							}
+						}
+					],
+					"id": "1.1"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGDxAwUSqi+8no=",
+					"_parent": {
+						"$ref": "AAAAAAGDw6qSkBYpVHE="
+					},
+					"name": "Registrar Vecino como socio ",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGDxA/PnKjt1wc=",
+							"_parent": {
+								"$ref": "AAAAAAGDxAwUSqi+8no="
+							},
+							"source": {
+								"$ref": "AAAAAAGDxAwUSqi+8no="
+							},
+							"target": {
+								"$ref": "AAAAAAGDxA9nVqjd7Og="
+							}
+						}
+					],
+					"id": "1.2"
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGDxA9nVqjd7Og=",
+					"_parent": {
+						"$ref": "AAAAAAGDw6qSkBYpVHE="
+					},
+					"name": "Listado de socios "
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGDxBQ0+KkFoxM=",
+					"_parent": {
+						"$ref": "AAAAAAGDw6qSkBYpVHE="
+					},
+					"name": "Pago de coutas ",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGDxBWoU6k/Mkk=",
+							"_parent": {
+								"$ref": "AAAAAAGDxBQ0+KkFoxM="
+							},
+							"source": {
+								"$ref": "AAAAAAGDxBQ0+KkFoxM="
+							},
+							"target": {
+								"$ref": "AAAAAAGDxBU/caktuZ8="
+							}
+						}
+					],
+					"id": "2.1"
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGDxBSJmakUFZ8=",
+					"_parent": {
+						"$ref": "AAAAAAGDw6qSkBYpVHE="
+					},
+					"name": "Socio",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGDxBSwXqkk2uE=",
+							"_parent": {
+								"$ref": "AAAAAAGDxBSJmakUFZ8="
+							},
+							"source": {
+								"$ref": "AAAAAAGDxBSJmakUFZ8="
+							},
+							"target": {
+								"$ref": "AAAAAAGDxBQ0+KkFoxM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGDxBU/caktuZ8=",
+					"_parent": {
+						"$ref": "AAAAAAGDw6qSkBYpVHE="
+					},
+					"name": "Ingresar pagos",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGDxBZhcKlVJns=",
+							"_parent": {
+								"$ref": "AAAAAAGDxBU/caktuZ8="
+							},
+							"source": {
+								"$ref": "AAAAAAGDxBU/caktuZ8="
+							},
+							"target": {
+								"$ref": "AAAAAAGDxBXVQ6lIHU0="
+							}
+						}
+					],
+					"id": "2.2"
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGDxBXVQ6lIHU0=",
+					"_parent": {
+						"$ref": "AAAAAAGDw6qSkBYpVHE="
+					},
+					"name": "Listado de pagos"
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGDxBeszall3Qk=",
+					"_parent": {
+						"$ref": "AAAAAAGDw6qSkBYpVHE="
+					},
+					"name": "Tesorero",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGDxBfIFKlyrjM=",
+							"_parent": {
+								"$ref": "AAAAAAGDxBeszall3Qk="
+							},
+							"source": {
+								"$ref": "AAAAAAGDxBeszall3Qk="
+							},
+							"target": {
+								"$ref": "AAAAAAGDxAK5IKietCk="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
